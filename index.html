@@ -7,10 +7,18 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 2rem;
       background-color: #f9f9f9;
       color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
     }
     h1 {
       color: #1e88e5;
@@ -46,54 +54,56 @@
 </head>
 <body>
 
-  <h1>Machine Learning / Deep Learning Portfolio</h1>
-  <p>Personal portfolio of AI projects using Python, Scikit-learn, PyTorch, and data science tools.</p>
+  <div class="container">
+    <h1>Machine Learning / Deep Learning Portfolio</h1>
+    <p>Personal portfolio of AI projects using Python, Scikit-learn, PyTorch, and data science tools.</p>
 
-  <h2>Projects</h2>
+    <h2>Projects</h2>
 
-  <div class="project">
-    <strong>Titanic Project</strong><br>
-    Predicting survival using ML models.
-    <div class="sub-links">
-      <a href="titanic_project/Compare_Model_Accuracy.html">Model generation and compare</a>
+    <div class="project">
+      <strong>Titanic Project</strong><br>
+      Predicting survival using ML models.
+      <div class="sub-links">
+        <a href="titanic_project/Compare_Model_Accuracy.html">Model generation and compare</a>
+      </div>
     </div>
-  </div>
 
-  <div class="project">
-    <strong>SMILES to Predict Molecule Properties</strong><br>
-    Using SMILES data file to predict molecular properties.
-    <div class="sub-links">
-      <a href="smiles_property_prediction/Wrangling.html">Data Wrangle</a><br>
-      <a href="smiles_property_prediction/EDA.html">Exploratory Data Analysis</a><br>
-      <a href="smiles_property_prediction/model.html">Model Generation</a>
+    <div class="project">
+      <strong>SMILES to Predict Molecule Properties</strong><br>
+      Using SMILES data file to predict molecular properties.
+      <div class="sub-links">
+        <a href="smiles_property_prediction/Wrangling.html">Data Wrangle</a><br>
+        <a href="smiles_property_prediction/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="smiles_property_prediction/model.html">Model Generation</a>
+      </div>
     </div>
-  </div>
 
-  <div class="project">
-    <strong>Protein Classification</strong><br>
-    Classification of proteins using biological data.
-    <div class="sub-links">
-      <a href="protein_classification/wrangle.html">Data Wrangle</a><br>
-      <a href="protein_classification/EDA.html">Exploratory Data Analysis</a><br>
-      <a href="protein_classification/model.html">Model Generation</a>
+    <div class="project">
+      <strong>Protein Classification</strong><br>
+      Classification of proteins using biological data.
+      <div class="sub-links">
+        <a href="protein_classification/wrangle.html">Data Wrangle</a><br>
+        <a href="protein_classification/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="protein_classification/model.html">Model Generation</a>
+      </div>
     </div>
-  </div>
 
-  <div class="project">
-    <strong>Genomics of Drug Sensitivity in Cancer (GDSC)</strong><br>
-    Predicting drug responses using ML and DL models.
-    <div class="sub-links">
-      <a href="GDSC/wrangle.html">Data Wrangle</a><br>
-      <a href="GDSC/EDA.html">Exploratory Data Analysis</a><br>
-      <a href="GDSC/model.html">Model Generation</a>
+    <div class="project">
+      <strong>Genomics of Drug Sensitivity in Cancer (GDSC)</strong><br>
+      Predicting drug responses using ML and DL models.
+      <div class="sub-links">
+        <a href="GDSC/wrangle.html">Data Wrangle</a><br>
+        <a href="GDSC/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="GDSC/model.html">Model Generation</a>
+      </div>
     </div>
-  </div>
 
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://github.com/Yongjudan/ML_portfolio" target="_blank">GitHub</a></li>
-    <li><a href="mailto:yongjudan@naver.com">Email</a></li>
-  </ul>
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://github.com/Yongjudan/ML_portfolio" target="_blank">GitHub</a></li>
+      <li><a href="mailto:yongjudan@naver.com">Email</a></li>
+    </ul>
+  </div>
 
 </body>
 </html>
