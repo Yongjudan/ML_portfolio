@@ -1,122 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ML Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       background-color: #f9f9f9;
+      color: #333;
       margin: 0;
       padding: 0;
-      color: #333;
     }
     .container {
       max-width: 800px;
-      margin: auto;
-      padding: 3rem 1.5rem;
-      background: #fff;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
       border-radius: 8px;
-      margin-top: 3rem;
     }
     h1 {
-      text-align: center;
-      color: #2c3e50;
+      color: #1e88e5;
+      border-bottom: 2px solid #1e88e5;
+      padding-bottom: 0.3rem;
     }
     h2 {
-      color: #34495e;
+      color: #1565c0;
       margin-top: 2rem;
     }
     ul {
       list-style-type: none;
-      padding-left: 0;
+      padding-left: 1rem;
     }
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.4rem;
     }
-    .project-title {
-      font-weight: bold;
-      font-size: 1.1rem;
-      margin-bottom: 0.2rem;
-    }
-    .sub-links {
-      margin-left: 1.2rem;
-    }
-    .sub-links li {
-      margin-bottom: 0.3rem;
+    .project {
+      margin-bottom: 1.8rem;
     }
     a {
-      color: #2980b9;
+      color: #1e88e5;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #777;
+    .sub-links {
+      margin-left: 1.2rem;
+      margin-top: 0.2rem;
     }
   </style>
 </head>
 <body>
+
   <div class="container">
     <h1>Machine Learning / Deep Learning Portfolio</h1>
-    <p style="text-align:center;">A showcase of AI & ML projects.</p>
+    <p>Personal portfolio of AI projects using Python, Scikit-learn, PyTorch, and data science tools.</p>
 
     <h2>Projects</h2>
-    <ul>
-      <li>
-        <div class="project-title">Titanic Project</div>
-        <div>Predicting survival using ML models.</div>
-        <ul class="sub-links">
-          <li><a href="titanic_project/Compare_Model_Accuracy.html">Model generation and compare</a></li>
-        </ul>
-      </li>
 
-      <li>
-        <div class="project-title">SMILES Property Prediction</div>
-        <div>Predicting molecular properties using SMILES strings.</div>
-        <ul class="sub-links">
-          <li><a href="smiles_property_prediction/Wrangling.html">Data Wrangle</a></li>
-          <li><a href="smiles_property_prediction/EDA.html">Exploratory Data Analysis</a></li>
-          <li><a href="smiles_property_prediction/model.html">Model Generation</a></li>
-        </ul>
-      </li>
+    <div class="project">
+      <strong>Titanic Project</strong><br>
+      Predicting survival using ML models.
+      <div class="sub-links">
+        <a href="titanic_project/Compare_Model_Accuracy.html">Model generation and compare</a>
+      </div>
+    </div>
 
-      <li>
-        <div class="project-title">Protein Classification</div>
-        <div>Classifying protein types from biological features.</div>
-        <ul class="sub-links">
-          <li><a href="protein_classification/wrangle.html">Data Wrangle</a></li>
-          <li><a href="protein_classification/EDA.html">Exploratory Data Analysis</a></li>
-          <li><a href="protein_classification/model.html">Model Generation</a></li>
-        </ul>
-      </li>
+    <div class="project">
+      <strong>SMILES to Predict Molecule Properties</strong><br>
+      Using SMILES data file to predict molecular properties.
+      <div class="sub-links">
+        <a href="smiles_property_prediction/Wrangling.html">Data Wrangle</a><br>
+        <a href="smiles_property_prediction/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="smiles_property_prediction/model.html">Model Generation</a>
+      </div>
+    </div>
 
-      <li>
-        <div class="project-title">GDSC: Drug Sensitivity in Cancer</div>
-        <div>ML and DL models for predicting drug response.</div>
-        <ul class="sub-links">
-          <li><a href="GDSC/wrangle.html">Data Wrangle</a></li>
-          <li><a href="GDSC/EDA.html">Exploratory Data Analysis</a></li>
-          <li><a href="GDSC/model.html">Model Generation</a></li>
-        </ul>
-      </li>
-    </ul>
+    <div class="project">
+      <strong>Protein Classification</strong><br>
+      Classification of proteins using biological data.
+      <div class="sub-links">
+        <a href="protein_classification/wrangle.html">Data Wrangle</a><br>
+        <a href="protein_classification/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="protein_classification/model.html">Model Generation</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <strong>Genomics of Drug Sensitivity in Cancer (GDSC)</strong><br>
+      Predicting drug responses using ML and DL models.
+      <div class="sub-links">
+        <a href="GDSC/wrangle.html">Data Wrangle</a><br>
+        <a href="GDSC/EDA.html">Exploratory Data Analysis</a><br>
+        <a href="GDSC/model.html">Model Generation</a>
+      </div>
+    </div>
 
     <h2>Links</h2>
     <ul>
-      <li><a href="https://github.com/Yongjudan/ML_portfolio" target="_blank">GitHub Repository</a></li>
-      <li><a href="mailto:yongjudan@naver.com">Email Me</a></li>
+      <li><a href="https://github.com/Yongjudan/ML_portfolio" target="_blank">GitHub</a></li>
+      <li><a href="mailto:yongjudan@naver.com">Email</a></li>
     </ul>
-
-    <footer>
-      &copy; 2025 Yongju Dan. All rights reserved.
-    </footer>
   </div>
+
 </body>
 </html>
