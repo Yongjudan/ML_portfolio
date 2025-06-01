@@ -1,6 +1,6 @@
 # Ignore virtual environment
 venv/
-gdsc_venv/
+GDSC/gdsc_venv/
 
 # Ignore compiled Python files
 __pycache__/
