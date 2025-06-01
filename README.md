@@ -10,7 +10,7 @@ Github:  [https://yongjudan.github.io/ML_portfolio](https://yongjudan.github.io/
 
 ### Titanic Project
 > Predicting passenger survival using classic ML models.  
-🔸 [Compare Model Accuracy](https://yongjudan.github.io/ML_portfolio/titanic_project/Compare_Model_Accuracy.html)
+- [Compare Model Accuracy](https://yongjudan.github.io/ML_portfolio/titanic_project/Compare_Model_Accuracy.html)
 
 ---
 
