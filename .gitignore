@@ -2,6 +2,7 @@
 venv/
 GDSC/gdsc_venv/
 protein_classification/prot_class_venv/
+deeppk_venv/
 
 # Ignore compiled Python files
 __pycache__/
